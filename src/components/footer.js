@@ -12,14 +12,16 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-        A Fitness blog{" "}
+        A Fitness blog from
+        <Link to="https://www.youtube.com/channel/UCVyt7SZpYVK-VtojzdXR_lg">
+          Adeeb Khan
+        </Link>
+        made with{" "}
         <span className="icon -love">
           <RiHeart2Line />
         </span>{" "}
         by{" "}
-        <Link to="https://github.com/PhenomenalTechs-hub">
-          Ali Ashraf aka. Phenomenal Techs
-        </Link>
+        <Link to="https://github.com/PhenomenalTechs-hub">PhenomenalTechs</Link>
       </p>
     </div>
   </footer>
