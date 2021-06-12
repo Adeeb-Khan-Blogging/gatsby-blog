@@ -12,10 +12,10 @@ const Footer = () => (
   >
     <div className="container">
       <p>
-        A Fitness blog from
+        A Fitness blog from{" "}
         <Link to="https://www.youtube.com/channel/UCVyt7SZpYVK-VtojzdXR_lg">
           Adeeb Khan
-        </Link>
+        </Link>{" "}
         made with{" "}
         <span className="icon -love">
           <RiHeart2Line />
