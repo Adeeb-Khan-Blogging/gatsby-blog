@@ -117,15 +117,7 @@ class BlogIndex extends React.Component {
           }
         />
         <h1>Blog</h1>
-        <Link
-          to={frontmatter.cta.ctaLink}
-          className="button"
-          sx={{
-            variant: "variants.button",
-          }}
-        >
-          <div className="grids col-1 sm-2 lg-3">{posts}</div>
-        </Link>
+        <div className="grids col-1 sm-2 lg-3">{posts}</div>
         <Pagination {...props} />
       </Layout>
     )
